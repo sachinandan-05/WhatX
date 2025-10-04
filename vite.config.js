@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/WhatXß/', // Your GitHub repo name
+  base: '/WhatX/', // Your GitHub repo name
 })
