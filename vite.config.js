@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/WhatX/', // Your GitHub repo name
+  base: '/', // Root path for Vercel deployment
 })

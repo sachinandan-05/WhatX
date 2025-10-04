@@ -13,8 +13,7 @@ import About from "./pages/About.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-  {/* Use Vite's BASE_URL as the router basename so encoded repo names (e.g. ß -> %C3%9F) are handled */}
-  <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/tools/ip-checker" element={<IpChecker />} />
