@@ -60,6 +60,15 @@ export function ScreenResolution() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 p-4 flex items-center justify-center">
       <div className="w-full max-w-4xl">
+        {/* Intro / Rich Content for AdSense */}
+        <div className="mb-6 text-gray-700">
+          <h2 className="text-xl font-semibold">About this tool</h2>
+          <p className="mt-2">This Screen Resolution Detector shows your current viewport and screen details, including pixel ratio and aspect ratio. It's helpful for developers and designers testing responsive layouts.</p>
+          <h3 className="mt-3 font-semibold">How to use</h3>
+          <p>Resize your browser window and this page will update automatically. Use the copy button to copy the current resolution.</p>
+          <h3 className="mt-3 font-semibold">FAQ</h3>
+          <p><strong>Q:</strong> Does this measure monitor resolution?<br/><strong>A:</strong> It reads the browser viewport and screen values exposed by the OS/browser.</p>
+        </div>
         {/* Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full mb-4 shadow-lg">

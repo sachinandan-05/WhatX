@@ -92,6 +92,17 @@ export const BrowserInfo = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-red-50 p-4 flex items-center justify-center">
       <div className="w-full max-w-4xl">
+        {/* Intro / Rich Content for AdSense */}
+        <div className="mb-6 text-gray-700">
+          <h2 className="text-xl font-semibold">About this tool</h2>
+          <p className="mt-2">Browser Detective collects and presents information your browser exposes to the page. This helps with debugging and ensuring compatibility across systems.</p>
+          <h3 className="mt-3 font-semibold">How it helps</h3>
+          <ul className="list-disc ml-6">
+            <li>Diagnose browser-specific bugs</li>
+            <li>Share exact environment details with support teams</li>
+            <li>Understand privacy implications of your user agent</li>
+          </ul>
+        </div>
         {/* Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-full mb-4 shadow-lg">

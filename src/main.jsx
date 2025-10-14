@@ -10,6 +10,8 @@ import { UserAgent } from "./pages/UserAgent.jsx";
 import { ToolGrid } from "./components/ToolGrid.jsx";
 import Blog from "./pages/Blog.jsx";
 import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -23,6 +25,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/tools" element={<ToolGrid/>}/>
         <Route path="/blogs" element={<Blog/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/privacy" element={<PrivacyPolicy/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

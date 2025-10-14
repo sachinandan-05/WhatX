@@ -34,6 +34,19 @@ const IpChecker = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
+        {/* Intro / Rich Content for AdSense */}
+        <div className="mb-6 text-sm text-gray-700">
+          <h2 className="text-lg font-semibold mb-2">About this tool</h2>
+          <p>This IP Address Finder quickly shows your public IPv4/IPv6 address and provides basic context about what an IP address means.</p>
+          <h3 className="mt-3 font-semibold">How to use</h3>
+          <ol className="list-decimal ml-6">
+            <li>Open this page.</li>
+            <li>The tool automatically detects your public IP.</li>
+            <li>Copy or refresh using the buttons below.</li>
+          </ol>
+          <h3 className="mt-3 font-semibold">Examples & Use cases</h3>
+          <p>Useful when troubleshooting network issues, verifying VPN connectivity, or sharing your IP with support teams.</p>
+        </div>
         {/* Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mb-4 shadow-lg">

@@ -16,12 +16,17 @@ export function Footer() {
 
           {/* Navigation Links */}
           <nav className="flex space-x-6 mb-4 md:mb-0">
-        
             <a 
               href="/contact" 
               className="text-slate-300 hover:text-blue-400 transition-colors duration-200 hover:underline underline-offset-4"
             >
-              Contact Us
+              Contact
+            </a>
+            <a 
+              href="/privacy" 
+              className="text-slate-300 hover:text-blue-400 transition-colors duration-200 hover:underline underline-offset-4"
+            >
+              Privacy
             </a>
           </nav>
 

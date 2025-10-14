@@ -74,6 +74,16 @@ export const UserAgent = () => {
         </div>
 
         {/* Info Cards */}
+        <div className="bg-white/70 rounded-xl p-6 text-gray-700">
+          <h3 className="font-semibold text-lg mb-2">About this tool</h3>
+          <p>This page reveals the raw user agent string sent by your browser and provides a parsed summary of your browser, OS, and device type.</p>
+          <h4 className="mt-3 font-semibold">How to use</h4>
+          <ol className="list-decimal ml-6">
+            <li>View the parsed summary above.</li>
+            <li>Copy the raw user agent string for debugging or reports.</li>
+            <li>Consider using private browsing or privacy tools to reduce fingerprinting.</li>
+          </ol>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="flex items-center space-x-3 mb-2">
